@@ -1,21 +1,42 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: Calculadora;
+    src: url(digital-7.ttf);
+}
+
+html{
+    background-image: radial-gradient(#ACE2E6, #639699);
+    height: 100vh;
+}
 
 #calculadora{
+    
     margin: auto;
-    margin-top: 15px;
-    background-color: #639699;
+    margin-top: 50px;
+    
+    background-image: linear-gradient(to right bottom, #639699, #7dbdc0, #639699, #558285, #3b585a);
     width: 320px;
-    padding: 25px;
+    padding: 30px;
     border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
 }
 
 #input{
+    color: #ACE2E6;
+    text-shadow: 0px 0px 15px #ACE2E6;
+    font-family: Calculadora, sans-serif;
     width: 305px;
-    font-size: 2em;
+    font-size: 3.5em;
     padding: 5px;
     margin-bottom: 20px;
-    background-color: #ACE2E6;
+    background-image: linear-gradient(to top right, #242d30, #2a3538, #425458, #2a3538 );
+    background-color: #2a3538;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 4px black;
+
+    
 }
 
 .bquadrado{
@@ -24,6 +45,10 @@
     font-size: 3em;
     margin: 3px;
     background-color: #E6DA95;
+    background-image: radial-gradient(#d3c888, #E6DA95, #fff2a7);
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 3px;
 }
 
 .bretangulo{
@@ -32,7 +57,10 @@
     margin: 3px;
     font-size: 3em;
     font-variant: small-caps;
-    background-color: #E6C3D9;
+    background-image: radial-gradient(#caabbf,#E6C3D9,#f7d1e9);
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 3px;
 }
 
 #bresult {
@@ -40,5 +68,8 @@
     width: 150px;
     margin: 3px;
     font-size: 3em;
-    background-color: #E6C3D9;
+    background-image: radial-gradient(#caabbf,#E6C3D9,#f7d1e9);
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 3px;
 }
