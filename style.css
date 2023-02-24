@@ -38,12 +38,22 @@ html{
     
 }
 
-.bquadrado{
+.num{
     height: 70px;
     width: 70px;
     font-size: 3em;
     margin: 3px;
-    background-color: #E6DA95;
+    background-image: radial-gradient(rgb(209, 217, 223), aliceblue);
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 3px;
+}
+
+.operador{
+    height: 70px;
+    width: 70px;
+    font-size: 3em;
+    margin: 3px;
     background-image: radial-gradient(#d3c888, #E6DA95, #fff2a7);
     border: 1px solid black;
     box-shadow: 2px 2px 4px black;
@@ -56,19 +66,22 @@ html{
     margin: 3px;
     font-size: 3em;
     font-variant: small-caps;
-    background-image: radial-gradient(#caabbf,#E6C3D9,#f7d1e9);
     border: 1px solid black;
     box-shadow: 2px 2px 4px black;
     border-radius: 3px;
+    background-image: radial-gradient(#caabbf,#E6C3D9,#f7d1e9);
 }
+
+
 
 #bresult {
     height: 70px;
     width: 150px;
     margin: 3px;
     font-size: 3em;
-    background-image: radial-gradient(#caabbf,#E6C3D9,#f7d1e9);
+    background-image: radial-gradient(#d3c888, #E6DA95, #fff2a7);
     border: 1px solid black;
     box-shadow: 2px 2px 4px black;
     border-radius: 3px;
 }
+
