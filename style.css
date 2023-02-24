@@ -23,7 +23,7 @@ html{
 #input{
     color: #ACE2E6;
     text-shadow: 0px 0px 15px #ACE2E6;
-    /*font-family: Calculadora, sans-serif;*/
+    font-family: Calculadora, sans-serif;
     width: 305px;
     height: 50px;
     font-size: 3.5em;
