@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+#calculadora{
+    margin: auto;
+    margin-top: 10vh;
+    background-color: lightblue;
+    width: 320px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#input{
+    width: 305px;
+    font-size: 3em;
+    padding: 5px;
+
+}
+
+.bquadrado{
+    height: 70px;
+    width: 70px;
+    font-size: 3em;
+    margin: 3px;
+}
+
+.bretangulo{
+    height: 69px;
+    width: 110px;
+    margin: 3px;
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+#bresult {
+    height: 70px;
+    width: 150px;
+    margin: 3px;
+    font-size: 3em;
+}

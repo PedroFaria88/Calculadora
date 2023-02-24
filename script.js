@@ -48,6 +48,6 @@ document.getElementById("b*").onclick = function(){
 document.getElementById("b/").onclick = function(){
     document.getElementById("input").value += "/";
     }
-document.getElementById("b=").onclick = function(){
+document.getElementById("bresult").onclick = function(){
     document.getElementById("input").value = eval(document.getElementById("input").value);
     }
