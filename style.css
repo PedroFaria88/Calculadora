@@ -11,10 +11,8 @@ html{
 }
 
 #calculadora{
-    
     margin: auto;
     margin-top: 50px;
-    
     background-image: linear-gradient(to right bottom, #639699, #7dbdc0, #639699, #558285, #3b585a);
     width: 320px;
     padding: 30px;
@@ -27,6 +25,7 @@ html{
     text-shadow: 0px 0px 15px #ACE2E6;
     font-family: Calculadora, sans-serif;
     width: 305px;
+    height: 50px;
     font-size: 3.5em;
     padding: 5px;
     margin-bottom: 20px;
