@@ -3,8 +3,8 @@
 
 #calculadora{
     margin: auto;
-    margin-top: 10vh;
-    background-color: lightblue;
+    margin-top: 15px;
+    background-color: #639699;
     width: 320px;
     padding: 25px;
     border-radius: 25px;
@@ -12,9 +12,10 @@
 
 #input{
     width: 305px;
-    font-size: 3em;
+    font-size: 2em;
     padding: 5px;
-
+    margin-bottom: 20px;
+    background-color: #ACE2E6;
 }
 
 .bquadrado{
@@ -22,6 +23,7 @@
     width: 70px;
     font-size: 3em;
     margin: 3px;
+    background-color: #E6DA95;
 }
 
 .bretangulo{
@@ -30,6 +32,7 @@
     margin: 3px;
     font-size: 3em;
     font-variant: small-caps;
+    background-color: #E6C3D9;
 }
 
 #bresult {
@@ -37,4 +40,5 @@
     width: 150px;
     margin: 3px;
     font-size: 3em;
+    background-color: #E6C3D9;
 }
